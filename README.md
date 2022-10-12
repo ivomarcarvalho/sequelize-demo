@@ -36,7 +36,7 @@ git commit -m "msg"
 # renomear de master para main
 git branch -M main
 
-git loggit push -u origin main
+git push -u origin main
 git remote add origin https://github.com/ivomarcarvalho/sequelize-demo
 git push 
 git clone https://github.com/ivomarcarvalho/sequelize-demo.git
