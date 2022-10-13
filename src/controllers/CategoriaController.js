@@ -7,7 +7,8 @@ module.exports = {
         let categoria = [];
         if (id == 0) {
             categoria = await Categoria.findAll({
-                attributes: ['nome']});
+                attributes: ['nome']
+            });
         } else {
             categoria = await Categoria.findByPk(id);
         }

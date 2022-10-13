@@ -3,7 +3,7 @@ require('dotenv').config();
 const Sequelize = require('sequelize');
 
 let config = require('./config/database.js');
-config = config[process.env.MODE_ENV];
+config = config[process.env.NODE_ENV];
 
 //console.log(config.database+' '+config.username+' '+config.password);
 //console.log('dialect:'+ config.dialect+' host: '+config.host+' port:'+ config.port)

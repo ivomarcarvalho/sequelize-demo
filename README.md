@@ -38,7 +38,6 @@ git branch -M main
 
 git push -u origin main
 git remote add origin https://github.com/ivomarcarvalho/sequelize-demo
-git push 
 git clone https://github.com/ivomarcarvalho/sequelize-demo.git
-
+git push 
 
